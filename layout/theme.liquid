@@ -9,7 +9,8 @@
     {{ content_for_header }}
   </head>
   <body>
+    {% render 'header' %}
     {{ content_for_layout }}
-    <script src="{{ 'scripts.js' | asset_url }}></script>
+    <script src="{{ 'scripts.js' | asset_url }}"></script>
   </body>
 </html>
