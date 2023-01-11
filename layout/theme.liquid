@@ -10,7 +10,8 @@
   </head>
   <body>
     {% render 'header' %}
-    {{ content_for_layout }}
+    {% section 'index' %}
+    {% section 'card' %}
     <script src="{{ 'scripts.js' | asset_url }}"></script>
   </body>
 </html>
