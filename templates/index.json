@@ -10,7 +10,8 @@
       } 
     },
     "order": [
-      "main",
-      "collection"
+      
+      "collection",
+      "main"
     ]
   }
