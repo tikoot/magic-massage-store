@@ -7,11 +7,14 @@
       },
       "collection" : {
         "type": "cards"
-      } 
+      },
+      "basturma" : {
+        "type": "basturma"
+      }  
     },
     "order": [
-      
       "collection",
+      "basturma",
       "main"
     ]
   }
