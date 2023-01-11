@@ -4,9 +4,13 @@
         "type": "home",
         "settings": {
         }
+      },
+      "collection" : {
+        "type": "cards"
       } 
     },
     "order": [
-      "main"
+      "main",
+      "collection"
     ]
   }
