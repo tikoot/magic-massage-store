@@ -1,9 +1,7 @@
 {
     "sections": {
       "main": {
-        "type": "announcement-bar",
-        "settings": {
-        }
+        "type": "announcement"
       } 
     }
   }
