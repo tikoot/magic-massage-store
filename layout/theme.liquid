@@ -9,10 +9,9 @@
     {{ content_for_header }}
   </head>
   <body>
-    {% section 'announcement' %}
+    {% section 'announcement-bar' %}
     {% section 'header' %}
     {{ content_for_layout }}
-    {% section 'card' %}
     <script src="{{ 'scripts.js' | asset_url }}"></script>
   </body>
 </html>
