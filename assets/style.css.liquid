@@ -2,13 +2,18 @@
 
 @font-face {
   font-family: 'Mont';
-  src: url('Mont-HeavyDEMO.otf'), url('Mont-ExtraLightDEMO.otf');
+  src: url('Mont-HeavyDEMO.otf');
+}
+
+@font-face {
+  font-family: 'Mont light';
+  src: url('Mont-ExtraLightDEMO.otf');
 }
 
 *,
 *:before,
 *:after {
-  font-family: 'Mont', sans-serif;
+  font-family: 'Mont light', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,6 +21,7 @@
 }
 
 .upper-header_text {
+  font-family: 'Mont';
   font-size: 14px;
   font-weight: 700;
   color: white;
