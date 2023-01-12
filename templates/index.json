@@ -5,16 +5,20 @@
         "settings": {
         }
       },
-      "collection" : {
-        "type": "cards"
+      "features" : {
+        "type": "feature"
       },
-      "basturma" : {
-        "type": "basturma"
-      }  
+      "reviews" : {
+        "type": "review"
+      } ,
+      "questions" : {
+        "type": "question"
+      }   
     },
     "order": [
-      "collection",
-      "basturma",
-      "main"
+      "main",
+      "features",
+      "reviews",
+      "questions"
     ]
   }
